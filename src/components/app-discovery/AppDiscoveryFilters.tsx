@@ -1,5 +1,5 @@
 import { Paper, TableRow, TableCell, TextField } from "@mui/material";
-import { useAppsContext } from "../stores/appStore";
+import { useAppsContext } from "../../stores/appStore";
 
 export function AppDiscoveryFilters() {
   const { nameFilter, categoryFilter, setNameFilter, setCategoryFilter } =

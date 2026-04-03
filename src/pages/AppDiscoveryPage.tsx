@@ -1,6 +1,5 @@
-import { AppDiscoveryTable } from "./AppDiscoveryTable";
-import { AppDiscoveryFilters } from "./AppDiscoveryFilters";
 import { Box } from "@mui/material";
+import { AppDiscoveryTable, AppDiscoveryFilters } from "../components";
 
 export function AppDiscoveryPage() {
   return (
