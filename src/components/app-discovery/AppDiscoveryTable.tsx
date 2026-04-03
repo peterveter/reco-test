@@ -19,13 +19,13 @@ export function AppDiscoveryTable() {
   return (
     <TableContainer component={Paper} sx={{ maxHeight: "calc(100vh - 3rem)" }}>
       <Table stickyHeader aria-label="simple table" className="bg-[#393939]">
-        <TableHead>
+        <TableHead className="bg-[#393939]">
           <TableRow className="border-b border-[#5B5B5B]">
-            <TableCell className="text-white bg-[#B5E600]/10">Name</TableCell>
-            <TableCell className="text-white bg-[#B5E600]/10">
+            <TableCell sx={{ backgroundColor: "#454A33", color: "#fff" }}>Name</TableCell>
+            <TableCell sx={{ backgroundColor: "#454A33", color: "#fff" }}>
               Category
             </TableCell>
-            <TableCell className="text-white bg-[#B5E600]/10">
+            <TableCell sx={{ backgroundColor: "#454A33", color: "#fff" }}>
               Connection
             </TableCell>
           </TableRow>
